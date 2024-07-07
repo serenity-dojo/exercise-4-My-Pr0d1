@@ -10,7 +10,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static com.serenitydojo.Dog;
 
 public class DogClassTest {
     @Test
