@@ -1,6 +1,10 @@
 package com.serenitydojo.checks;
 
-import org.junit.Test;
+
+
+
+
+import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
