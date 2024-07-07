@@ -40,11 +40,11 @@ public class Dog {
         return this.usualNoise;
     }
 
-    public void feed() {
-        fedTheDog(true);
+    public void feed(boolean bool) {
+        fedTheDog(bool);
     }
 
     private void fedTheDog(boolean bool) {
-        this.haveEaten = bool;
+        haveEaten = bool;
     }
 }

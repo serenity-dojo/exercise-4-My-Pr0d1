@@ -27,7 +27,7 @@ public class WhenCreatingObjectsTest {
         Dog fido = new Dog("Fido","Bone", 5);
 
         // TODO: implement a method in the Dog sound called feed() that sets the isFed variable to true:
-        fido.feed();
+        fido.feed(true);
 
         Assertions.assertTrue(Dog.isFed());
 
